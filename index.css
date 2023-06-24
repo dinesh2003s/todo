@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.names
+{
+    font-size: 15px;
+    padding: 6px;
+    height: 25px;
+    width: 200px;
+}
+
+.date
+{   margin-left: 5px;
+    font-size: 15px;
+    padding: 6px;
+    height: 26px;
+    width: 200px;
+}
+.add,.delete{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 100px;
+    height:40px;
+}
+.add
+{
+    margin-bottom: 20px;
+}
+.delete
+{
+    background-color: darkred;
+}
+.display
+{
+    display:grid;
+    grid-template-columns: 227px 219px 100px;
+    row-gap: 5px;
+    
+}
